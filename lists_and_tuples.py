@@ -31,3 +31,7 @@ print(marks)
 #insert() it add elemnt at particular position
 marks.insert(3,78.8)
 print(marks)
+
+#Tuples
+#A built in data type that let us create immutable sequence of values
+ 
