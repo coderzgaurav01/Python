@@ -9,3 +9,7 @@ print(name,age,price)
     # variable can be of any length
     # variables can be the combination of Uppercase letter, lowercase letter , digit and underscore
     # ex:- myvariable my_varible_1 etc 
+    
+print (type(name))
+print(type(age))
+print(type(price))
