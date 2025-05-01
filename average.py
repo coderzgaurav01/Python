@@ -1,4 +1,4 @@
 a=float(input("Enter First number : "))
 b=float(input("Enter Second number : "))
-average = a+b/2
+average = (a+b)/2.0
 print("Average of two number is :",average)
