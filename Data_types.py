@@ -5,7 +5,7 @@
     # Boolean 
     # None 
 """
-Name= "Gaurav"
+Name= str(input("Enter your name:"))
 Marks=99.9
 salary=1000000  
 old = False
