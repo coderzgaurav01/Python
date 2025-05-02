@@ -1,3 +1,4 @@
+
 # List is a built-in data type that store set of values
 marks=[94.4,56.6,95.2,66.4]
 print(marks)
@@ -71,3 +72,16 @@ if(list==list2):
     print("List is palindrome")
 else:
     print("List is not palindrome")
+    
+
+
+#Wap to count the number of students with the "A" grade in the following grade.
+
+students=("C","D","A","A","B","B","A","A")
+print("Total students got Grade A are :",students.count("A"))
+
+
+#Store the above values in a list &sort them from "A" to "D"
+students=["C","D","A","A","B","B","A","A"]
+students.sort()
+print(students)
