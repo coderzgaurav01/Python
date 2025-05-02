@@ -1,4 +1,4 @@
-'''
+
 f=open("demo.txt","r")
 data=f.read()
 print(data)
@@ -18,7 +18,7 @@ f.close()
 
 import os
 os.remove("sample.txt")
-'''
+
 with open("practice.txt","w") as f:
     f.write("Hi everyone")
     f.write("\n We are learning I/O")
