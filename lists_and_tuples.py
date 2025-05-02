@@ -38,3 +38,36 @@ print(marks)
 tup = (10,20,30,40,50)
 print(tup)
 print(tup[0])
+
+print(tup[1:3])
+
+#Methods in tuple
+
+print(tup.index(20))
+
+
+#Wap to ask the user to enter names of their 3 favourite movies and store them in a list
+movies=[]
+mov1=input("Enter first movie:")
+mov2=input("Enter second movie:")
+mov3=input("Enter third movie")
+
+movies.append(mov1)
+movies.append(mov2)
+movies.append(mov3)
+
+print(movies)
+
+
+#Wap to check if a list contains palindrome of elements.
+
+list=[1,2,3,3,2,1]
+print(list)
+list2=list.copy()
+print(list2)
+list2.reverse()
+print(list2)
+if(list==list2):
+    print("List is palindrome")
+else:
+    print("List is not palindrome")
