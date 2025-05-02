@@ -34,4 +34,7 @@ print(marks)
 
 #Tuples
 #A built in data type that let us create immutable sequence of values
- 
+
+tup = (10,20,30,40,50)
+print(tup)
+print(tup[0])
